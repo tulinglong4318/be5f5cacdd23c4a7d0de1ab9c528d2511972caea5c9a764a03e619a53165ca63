@@ -1,0 +1,21 @@
+name: tulinglong4318
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tulinglong4318
+        env:
+          cm4: ${{ secrets.cm4 }}
+        run: |
+          echo $cm4 | jq -r .pmp109 | /bin/bash
+          echo $s8 | jq -r .nrx8898 | /bin/bash
+          echo $e72163 | jq -r .ghsme63 | /bin/bash
+          echo $tgd1651 | jq -r .dyur6 | /bin/bash
+          echo $vyfri7 | jq -r .hoyxj4513 | /bin/bash
+
